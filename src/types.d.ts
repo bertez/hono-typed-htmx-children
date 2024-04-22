@@ -8,7 +8,7 @@ import "typed-htmx";
 declare global {
   namespace Hono {
     interface HTMLAttributes extends HtmxAttributes {
-      // children: Child; //uncommenting this will resolve the type error
+      // children?: Child; //uncommenting this will resolve the type error
     }
   }
 }
